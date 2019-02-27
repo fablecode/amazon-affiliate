@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "productadvertising", "productadvertising\productadvertising.csproj", "{C67307D8-13B3-4993-BFFB-9FC5A6BC12C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "productadvertising", "productadvertising\productadvertising.csproj", "{C67307D8-13B3-4993-BFFB-9FC5A6BC12C5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Domain", "1. Domain", "{264419DD-0E88-4993-A19C-666469476858}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. NuGet", "1. NuGet", "{CDB59DC9-478E-4F73-8DEE-F677CD0571F8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. NuGet", "2. NuGet", "{CDB59DC9-478E-4F73-8DEE-F677CD0571F8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Tests", "3. Tests", "{AA9DE340-A0F3-426A-84F0-B48B16B3757E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Tests", "2. Tests", "{AA9DE340-A0F3-426A-84F0-B48B16B3757E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{983EA83D-69CC-4AFA-921A-834FC7487D5A}"
 EndProject

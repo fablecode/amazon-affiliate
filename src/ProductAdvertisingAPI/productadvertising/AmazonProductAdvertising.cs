@@ -10,14 +10,18 @@
 
     public interface IAmazonSettings
     {
-        AmazonAuthentication Authentication { get; set; }
-        AmazonAffiliate Affiliate { get; set; }
+        string AccessKey { get; set; }
+        string SecretKey { get; set; }
+        string AssociateTag { get; set; }
+        string EndPoint { get; set; }
     }
 
     public class AmazonSettings : IAmazonSettings
     {
-        public AmazonAuthentication Authentication { get; set; }
-        public AmazonAffiliate Affiliate { get; set; }
+        public string AccessKey { get; set; }
+        public string SecretKey { get; set; }
+        public string AssociateTag { get; set; }
+        public string EndPoint { get; set; }
     }
 
     public class AmazonAuthentication
